@@ -1,7 +1,7 @@
 ---
-title: Uso de la inteligencia artificial generativa para el PTGAS de la Universidad de Alicante - Contestar preguntas
+title: Uso de la inteligencia artificial generativa para el PTGAS de la Universidad Pablo de Olavide - Contestar preguntas
 author: Paco García Tortosa. Servicio de Informática
-date: 2024-12-02
+date: 2025-04-21
 marp: true
 tags:
   - CharlaIA
@@ -50,39 +50,45 @@ tags:
 ## Aplicación en el PTGAS
 
 ### Áreas de implementación
-- Elaboración de guías administrativas para estudiantes
+- Elaboración de guías administrativas internas y externas
+- Bases de datos de conocimientos
 - Gestión documental eficiente
 - Mejora de la atención al estudiante mediante FAQs automatizadas
 
 ---
-### Caso práctico: Convocatoria Erasmus
+
+### Caso práctico: Consultas sobre legislación aplicable al PTGAS (Normativa)
 - Implementación de chat para consultas sobre:
-  - Gestiones para realizar la solicitud
-  - Plazas disponibles
-  - Requisitos
+  - Normativa específica aplicable al PTGAS (EBEP, incompatibilidades, reglamentos UPO).
+  - Procedimientos de evaluación del desempeño y carrera profesional.
+  - Regulación de la formación.
+  - Medidas de conciliación y permisos (asuntos propios).
+  - Funcionamiento de bolsas de trabajo y provisión de puestos.
+  - Protocolos de actuación (acoso).
+  - Resolución de dudas frecuentes (FAQs, incidencias eTempo).
+
+---
+
+### Caso práctico: Consultas sobre legislación aplicable al PTGAS (Normativa)
 - Funcionalidades adicionales:
   - Cronologías de hitos importantes
-  - Resúmenes en audio
+  - Resúmenes en audio (solo en inglés)
   - Soporte multilingüe
 
 ---
-### Fuentes de información
-- Página web de movilidad: https://sri.ua.es/es/movilidad/erasmus-ka131/2025-26/primer-plazo-de-solicitud.html
-- Documentación oficial:
-  - Bases: https://www.boua.ua.es/es/acuerdo/54461
-  - Listado de plazas: https://www.boua.ua.es/Acuerdos/DescargarAnexoxId?idanexo=1050865&idacuerdo=54623&idioma=es
-  - Baremo: https://www.boua.ua.es/Acuerdos/DescargarAnexoxId?idanexo=1042431&idacuerdo=54461&idioma=es
-
----
 ## Tareas a realizar
-1. Incorporación de fuentes documentales
-2. Desarrollo de cronología
-3. Elaboración de FAQs
+1. Incorporación de fuentes documentales (Ir a fuentes)
+2. Elaboración de FAQs
+3. Realización de consultas sobre la temática deseada
 
 ---
 
 ## Ejemplos de consultas
-1. Traducción de cronología al inglés
-2. ¿Existen plazas de traducción e interpretación con requisito de idioma alemán B1?
-3. ¿Se valora en el baremo un nivel de idioma superior al solicitado?
-4. ¿Cual es el proceso de renuncia de plaza?
+1. Si te conviertes en funcionario de la Universidad Pablo de Olavide (UPO) después de haber sido funcionario en otra administración pública, hay varios aspectos importantes a tener en cuenta en cuanto a los servicios previos y el cálculo de trienios, basándonos en las fuentes proporcionadas
+2. ¿Cuantos días de asuntos propios dispone un funcionario durante el año?
+3. ¿Qué retribuciones cobra un empleado publico de la UPO ?
+4. Detalla las medidas de conciliación específicas de la UPO y las existentes en la normativa general del estatuto básico
+5. Señalando solo la fuente de las medidas de conciliación - Detalla las medidas del documento y estructuralas para su mejor comprensión
+6. La jornada semanal de la UPO de un funcionario que duración tiene?
+7. Si soy un funcionario con 30 años de antiguedad (10 trienios) cuantos dias de vacaciones tendria? Y cuantos de asuntos propios ?
+8. Tengo un problema con mi jefe y considero que es acoso laboral. Como debería actual teniendo en cuenta la normativa UPO ?
