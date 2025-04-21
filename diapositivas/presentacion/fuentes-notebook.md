@@ -1,5 +1,5 @@
 ### Fuentes de información
-- [Documentos PDF compartidos en Google Drive](https://drive.google.com/drive/folders/1MVZanSWFgSjkfmOoFlWloVSq8-QvES5S?usp=drive_link
+- [Documentos PDF compartidos en Google Drive](https://drive.google.com/drive/folders/1MVZanSWFgSjkfmOoFlWloVSq8-QvES5S?usp=sharing
 )
 #### Normativa General y Estatutaria
 - [Estatuto Básico del Empleado Público (EBEP)](https://www.upo.es/cms1/export/sites/upo/cepl/documentos/EBEP_BOE_14072012.pdf)

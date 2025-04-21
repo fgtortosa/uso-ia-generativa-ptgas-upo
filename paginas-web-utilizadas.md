@@ -1,4 +1,4 @@
-1. [Material para preparar la página de la noticia](https://dagrygf.ua.es/de/documentos/2024-seminario-ot-la-region-y-la-ciudad/la-region-y-la-ciudad-seminario-ot-2024.jpg)
+1. [Material para preparar la página de la noticia](https://eventos.upo.es/133339/detail/iv-jornada-de-traduccion-e-interpretacion-en-las-fuerzas-y-cuerpos-de-seguridad-del-estado.html)
 2. [Claude.ai](https://claude.ai)
 3. [Chatgpt.com](https://chatgpt.com/)
 4. [Perplexity.ai](https://www.perplexity.ai/)

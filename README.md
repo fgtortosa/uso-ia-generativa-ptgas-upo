@@ -1,4 +1,4 @@
-# Uso de la inteligencia artificial generativa para el colectivo de PTGAS de la Universidad de Alicante
+# Uso de la inteligencia artificial generativa para el colectivo de PTGAS de la Universidad Pablo de Olavide
 
 ## Casos de uso
 1. *Transformación de texto*. Usaremos el folleto de un evento en pdf que contiene texto e imagenes para generar contenido para una página web del evento
@@ -17,9 +17,10 @@
   - [NotebookML](https://notebooklm.google.com/)
  
 ## Materiales usados en la charla
-- [Cartel del evento de Geografía](https://dagrygf.ua.es/de/documentos/2024-seminario-ot-la-region-y-la-ciudad/la-region-y-la-ciudad-seminario-ot-2024.jpg)
-- [Cartel del seminario de Geopolítica](https://web.ua.es/es/estudios-geopolitica/documentos/programa-iii-geopolitica-2024.pdf)
-- Documento con las plazas de movilidad Erasmus
+- [Cartel del evento de Traducción](https://eventos.upo.es/_files/_event/_133339/_header_img/_195709.png)
+- [Cartel del seminario de Geopolítica de la UA](https://web.ua.es/es/estudios-geopolitica/documentos/programa-iii-geopolitica-2024.pdf)
+- [Materiales para el uso de notebook](./)
+
 
 ## Presentación
 - [Generar contenido](./diapositivas/presentacion/generar-contenido.pdf)
