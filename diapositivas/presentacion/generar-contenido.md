@@ -213,3 +213,7 @@ Ajustamos la salida a nuestras necesidades:
 
 El resultado de la página web se puede ver aquí: [https://fgtortosa.github.io/uso-ia-generativa-ptgas-upo/](https://fgtortosa.github.io/uso-ia-generativa-ptgas-upo/)
 
+
+---
+## Preguntas
+

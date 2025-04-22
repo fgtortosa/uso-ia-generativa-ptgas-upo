@@ -17,7 +17,7 @@ tags:
 ---
 ## Solución propuesta
 
-- Chats personalizados basados en información verificada y previamente suministrada
+- **Chats inteligentes que responden usando *solo* tu documentación verificada.**
 - Herramientas disponibles: ChatGPT (versión de pago) y Google NotebookML
 
 ---
@@ -39,7 +39,7 @@ tags:
     - Markdown (.md)
 - **Contenido Web:**
     - URLs de páginas web
-    - Vídeos de YouTube (transcripciones)
+    - Vídeos de YouTube (transcripciones) y audios
 - **Notas Manuales:**
     - Texto copiado y pegado directamente
     - Notas creadas dentro del propio NotebookML
@@ -52,16 +52,62 @@ tags:
 - **Eficiencia:** Resuelve dudas frecuentes rápidamente, liberando tiempo del personal.
 - **Consistencia:** Asegura que las respuestas sean uniformes y basadas en la documentación oficial.
 - **Democratización del conocimiento:** Facilita el acceso a información compleja para todos.
-- **Onboarding:** Ideal para que el nuevo personal se ponga al día rápidamente.
+- **Incorporación:** Ideal para que el nuevo personal se ponga al día rápidamente.
 
 ---
 ## Flujo de trabajo: 1. Creación del Notebook
 
-- Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PTGAS UPO").
-- Asignar un nombre descriptivo.
+![Notebook con título](nuevo-documento.jpg)
 
-![Notebook con título](notebook-con-titulo.png)
+---
+## Flujo de trabajo: 1. Creación del Notebook
 
+Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PTGAS UPO").
+
+---
+
+## Flujo de trabajo: 2. Incorporación de Fuentes
+
+![Añadir fuente](add-fuentes.png)
+
+---
+
+## Flujo de trabajo: 2. Incorporación de Fuentes
+
+- **Añadir contenido:** Utilizar las opciones de la interfaz o arrastrar archivos directamente.
+- **Opciones:**
+    - **Subir archivo:** Cargar PDFs, .txt, Markdown y archivos de Audio (ej. MP3) desde tu ordenador.
+    - **Google Drive:** Seleccionar Documentos y Presentaciones directamente desde tu Drive. (Se sincronizan si se modifican).
+    - **Enlace:** Pegar URLs de Sitios web o vídeos de YouTube.
+    - **Pegar texto:** Introducir texto copiado directamente como una nota-fuente.
+- **Selección:** Elegir las fuentes más relevantes y actualizadas para el tema del notebook.
+- **Límite:** Hasta 50 fuentes por notebook (cada fuente hasta 500.000 palabras aprox.).
+
+
+
+---
+
+## Flujo de trabajo: 3. Realización de Consultas
+
+![Realizar consulta](realizar-consultas.png)
+
+---
+
+## Flujo de trabajo: 3. Realización de Consultas
+
+- **Interactuar con el chat:** Escribir preguntas en lenguaje natural en el cuadro de texto inferior.
+- **Usar sugerencias:** NotebookML propone preguntas iniciales basadas en las fuentes cargadas. Haz clic en ellas para empezar.
+- **Refinar preguntas:** Si la respuesta no es la esperada, reformula la pregunta o sé más específico.
+- **Verificar fuentes:** Comprobar las citas numéricas [1], [2]... que aparecen en la respuesta para ver qué documento o sección la respalda. Haz clic en el número para ir a la fuente.
+- **Explorar:** Realizar diversas preguntas para entender cómo interpreta la IA la información y qué tipo de respuestas puede generar.
+
+
+---
+## Flujo de trabajo: 4. Guardar notas clave
+
+![Guardar como nota](guardar-como-nota.png)
+
+---
 
 ## Flujo de trabajo: 4. Guardar notas clave
 
@@ -71,6 +117,13 @@ tags:
 - **Base de conocimiento:** Las notas guardadas enriquecen la base de conocimiento del notebook, actuando como fuentes adicionales para futuras consultas y generaciones de contenido.
 
 ---
+
+## Flujo de trabajo: 5. Añadir Contexto Manualmente
+
+![Panel Studio](panel-studio.png)
+
+---
+
 ## Flujo de trabajo: 5. Añadir Contexto Manualmente
 
 - **Crear nueva nota:** En el panel "Studio", utiliza la opción "+ Añadir nota".
@@ -81,6 +134,7 @@ tags:
 - **Integración:** Estas notas manuales se tratan como fuentes adicionales para el chat y las herramientas del Studio, permitiendo respuestas más completas y contextualizadas.
 
 ---
+
 ## Flujo de trabajo: 6. Generación de Contenido con Studio
 
 - **Acceder a Herramientas:** En el panel "Studio", se encuentran diversas opciones para generar contenido automáticamente basado en las fuentes y notas.
@@ -92,7 +146,7 @@ tags:
 ## Flujo de trabajo: 7. Resolución Continua de Dudas
 
 - **Chat como herramienta principal:** Utilizar la ventana de chat para consultas recurrentes del personal o alumnado.
-- **Base de conocimiento consolidada:** El chat aprovecha todas las fuentes (documentos, webs, notas guardadas, notas manuales) para dar respuestas consistentes y basadas en la información verificada.
+- **Base de conocimiento consolidada:** El chat aprovecha todas las fuentes (documentos, webs, notas guardadas, notas manuales) para dar respuestas consistentes y basadas en la información erificada.
 - **Rapidez y eficiencia:** Reduce el tiempo dedicado a responder preguntas repetitivas.
 - **Citación de fuentes:** Cada respuesta incluye referencias a las fuentes específicas utilizadas, garantizando la trazabilidad y fiabilidad.
 
@@ -109,6 +163,9 @@ tags:
 
 ![Pantalla Principal](pantalla-principal-notebook.jpg)
 
+---
+## Interfaz de Google NotebookML: Visión General
+
 - **Panel Izquierdo (Fuentes):** Gestiona los documentos base. Muestra resúmenes y temas clave al seleccionar una fuente.
 - **Panel Central (Chat):** Área principal para hacer preguntas y recibir respuestas. Incluye sugerencias de preguntas.
 - **Panel Derecho (Studio):** Almacena notas guardadas y contiene herramientas para generar contenido adicional.
@@ -116,13 +173,28 @@ tags:
 ---
 ## Interfaz: Panel de Fuentes (Detalle)
 
+![Panel de fuentes](panel-fuentes.png)
+
+---
+## Interfaz: Panel de Fuentes (Detalle)
+
 - **Iconos:** Indican el tipo de fuente (PDF, Web, Doc, Nota).
-- **Resumen rápido:** Al hacer clic en una fuente, se muestra un resumen generado por IA y los temas clave detectados.
 - **Gestión:** Permite añadir, eliminar o seleccionar/deseleccionar fuentes para acotar la base de conocimiento de una consulta específica.
+
+---
+## Interfaz: Panel de Fuentes (Detalle)
+
+- **Resumen rápido:** Al hacer clic en una fuente, se muestra un resumen generado por IA y los temas clave detectados.
 
 ![Guía de la fuente](guia-de-la-fuente.png)
 
 ---
+## Interfaz: Panel Studio (Herramientas)
+
+![Panel Studio](panel-studio.png)
+
+---
+
 ## Interfaz: Panel Studio (Herramientas)
 
 - **Notas:** Acceso a todas las notas guardadas desde el chat o creadas manualmente.
@@ -158,15 +230,7 @@ tags:
 
 ### Documentos para el notebook 
 
-- Descarga de los docuemntos pdf de google drive
-
-- [Acuerdo de fecha 24 de septiembre de 2008, sobre Provisión de Puestos de Trabajo, Promoción Interna e Ingreso del Personal de Administración y Servicios Funcionario de la Universidad Pablo de Olavide](https://www.upo.es/cms1/export/sites/upo/rr-hh-pas-retribuciones-seguridad-social/normativa/documentos/normativa-pas/normativa-funcionarios/propia/Acuerdo-Gerencia-24.09.08.pdf)
-- [Acuerdo de fecha 6 de mayo de 2008 entre la Gerencia de la Universidad Pablo de Olavide y la Junta de Personal Funcionario de Administración y Servicios sobre la Composición y Funcionamiento de las Bolsas de Trabajo para el Personal Funcionario de la Universidad Pablo de Olavide.](https://www.upo.es/cms1/export/sites/upo/rr-hh-pas-retribuciones-seguridad-social/normativa/normativa-pas/normativa-PAS-Funcionario/ACUERDO-COMPOSICION-Y-FUNCIONAMIENTO-BOLSAS-DE-TRABAJO-VALIDO.pdf)
-- [Acuerdo de 14 de marzo de 2016 entre la Gerencia de la Universidad Pablo de Olavide, de Sevilla y los Órganos de Representación del PAS Funcionario y Laboral del ámbito del capítulo I del Presupuesto de la Universidad sobre jornadas, vacaciones y permisos](https://www.upo.es/cms1/export/sites/upo/rr-hh-pas-retribuciones-seguridad-social/normativa/documentos/acceso/Acuerdo-Jornadas-14-03-16-firmado.pdf)
-- [Acuerdo sobre Medidas de Conciliación de la vida personal, familiar y laboral](https://www.upo.es/cms1/export/sites/upo/rr-hh-pas-retribuciones-seguridad-social/normativa/documentos/normativa-pas/normativa-funcionarios/general/Medidas_Conciliacion_Funcionarios.pdf)
-- [Asuntos propios](https://www.upo.es/rr-hh-pas-retribuciones-seguridad-social/faq/asuntos-propios/)
-- [Preguntas frecuentes retribuciones seguridad social](https://www.upo.es/rr-hh-pas-retribuciones-seguridad-social/faq/)
-
+- Descarga de los documentos pdf de google drive: https://drive.google.com/drive/folders/1MVZanSWFgSjkfmOoFlWloVSq8-QvES5S?usp=sharing y añadelos como fuentes
 
 ---
 ## Ejemplos de Consultas al Notebook PTGAS
