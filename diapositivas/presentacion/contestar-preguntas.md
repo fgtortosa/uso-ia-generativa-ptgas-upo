@@ -223,8 +223,7 @@ Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PT
 - **Carrera, Desempeño y Formación:** Reglamentos UPO de Evaluación, Carrera Horizontal y Formación PAS.
 - **Contratación y Provisión:** Acuerdos sobre Provisión de Puestos, Promoción Interna, Bolsas de Trabajo PAS Funcionario.
 - **Conciliación y Permisos:** Acuerdo Jornadas/Vacaciones/Permisos, Medidas de Conciliación.
-- **Protocolos:** Protocolo Acoso Sexual/Razón de Sexo.
-- **Webs UPO:** FAQs RRHH, Incidencias eTempo, Asuntos Propios.
+- **Webs UPO:** FAQs RRHH, Asuntos Propios.
 
 ---
 
@@ -238,9 +237,12 @@ Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PT
 - *Si me incorporo como funcionario a la UPO desde otra administración, ¿cómo se computan mis trienios y servicios previos según el EBEP y la normativa UPO?*
 - *¿Cuántos días de asuntos propios corresponden a un funcionario este año según el acuerdo de jornadas?*
 - *Explícame las principales diferencias en las medidas de conciliación entre el EBEP y el acuerdo específico de la UPO.*
+
+---
+## Ejemplos de Consultas al Notebook PTGAS
+
 - *¿Cuál es la duración de la jornada semanal ordinaria para el PTGAS funcionario en la UPO?*
 - *Tengo 30 años de antigüedad como funcionario, ¿cuántos días adicionales de vacaciones y asuntos propios me corresponden según la normativa vigente en la UPO?*
-- *Si creo que estoy sufriendo acoso laboral, ¿qué pasos debo seguir según el protocolo de la UPO?*
 - *Resume los puntos clave del Reglamento de Evaluación del Desempeño del PTGAS.*
 
 ---

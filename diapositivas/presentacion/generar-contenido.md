@@ -8,7 +8,7 @@ tags:
 ---
 
 ## Consideraciones iniciales
-- La IA generativa puede ser una ayuda para las tareas del día a día del colectivo PTGAS de la Universidad Pablo de Olavide
+- La IA generativa puede ser una ayuda para las tareas del día a día del colectivo PTGAS de la Universidad de Olavide
 - Es una herramienta de apoyo, **necesita ser supervisada**
 - Como se usa en la nube, hay que evitar el uso de datos personales o de información sensible
 - Es buena en tareas lingüísticas, no en razonamiento ni matemáticas (esto está cambiando rápidamente)
@@ -213,6 +213,15 @@ Ajustamos la salida a nuestras necesidades:
 
 El resultado de la página web se puede ver aquí: [https://fgtortosa.github.io/uso-ia-generativa-ptgas-upo/](https://fgtortosa.github.io/uso-ia-generativa-ptgas-upo/)
 
+---
+
+## Conclusiones
+
+- La IA generativa es una **herramienta versátil** para tareas como resumir, transformar y crear contenido (ej. páginas web desde carteles).
+- Es crucial **guiar a la IA** con prompts claros y detallados, refinando los resultados paso a paso.
+- Los modelos actuales (Claude, ChatGPT, Mistral, Gemini) ofrecen distintas fortalezas (razonamiento, multimodalidad, contexto amplio).
+- La **supervisión humana** es esencial para verificar la precisión y adecuar el resultado final.
+- **Precaución con datos sensibles:** Evitar información personal o confidencial al usar herramientas en la nube.
 
 ---
 ## Preguntas
