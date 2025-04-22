@@ -1,17 +1,17 @@
 ---
-title: Uso de la inteligencia artificial generativa para el PTGAS de la Universidad de Alicante - Generar contenido
-author: Paco García Tortosa. Servicio de Informática
-date: 2024-12-02
+title: Uso de la inteligencia artificial generativa para el PTGAS de la Universidad Pablo de Olavide, de Sevilla  - Generar contenido
+author: Paco García Tortosa. Servicio de Informática - Universidad de Alicante
+date: 2025-4-21
 marp: true
 tags:
   - CharlaIA
 ---
 
 ## Consideraciones iniciales
-- La IA generativa puede ser una ayuda para las tareas del día a día del colectivo PTGAS de la Universidad de Alicante
-- Es una herramienta de apoyo, necesita ser supervisada
-- Como se usa en la nube hay que evitar el uso de datos personales
-- Es buena en tareas lingüísticas, no en razonamiento ni matemáticas
+- La IA generativa puede ser una ayuda para las tareas del día a día del colectivo PTGAS de la Universidad de Pablo de Olavide
+- Es una herramienta de apoyo, **necesita ser supervisada**
+- Como se usa en la nube hay que evitar el uso de datos personales o de información sensible
+- Es buena en tareas lingüísticas, no en razonamiento ni matemáticas (esto esta cambiando rápidamente)
 
 ---
 
@@ -26,7 +26,7 @@ tags:
 
 1. Hay que detallar el tipo de salida que se desee y toda aquella información que sea relevante (contexto). 
 2. Si la salida que se desea es compleja comenzar con una aproximación al problema para a continuación ir añadiendo la complejidad. 
-3. En algunos casos puede ser interesante utilizar ChatGpt con su chat de razonamiento por pasos
+3. En algunos casos puede ser interesante utilizar modelos con capacidad de razonamiento, por su capacidad de estructurar la tarea. **Para estos modelos, es útil dar instrucciones paso a paso o pedirles que "piensen en voz alta" (Chain-of-Thought).**
 
 ---
 
@@ -46,6 +46,14 @@ El modelo permite el uso de texto, imágenes, audio, etc. No funciona igual de b
 
 ---
 
+## Conceptos
+
+**Razonamiento**
+
+Algunos modelos pueden descomponer tareas complejas en pasos lógicos, planificar y seguir una estrategia. Esto es útil para problemas que requieren análisis detallado o seguir instrucciones precisas.
+
+---
+
 ## Modelos que podemos usar
 1. claude
 2. chatgpt
@@ -57,14 +65,14 @@ El modelo permite el uso de texto, imágenes, audio, etc. No funciona igual de b
 
 ### Claude.ai
 - Modelo de Anthropic
-- En es el mejor modelo para tareas de programación, incluyendo por supuesto las formulas de excel
+- En es el mejor modelo para tareas de programación, incluyendo por supuesto las formulas de excel. Posee **buenas capacidades de razonamiento.**
 - Hay que registrarse para usarlo, en [https://claude.ai](https://claude.ai)
 
 ---
 
 ### Chatgpt.com
 - Modelo de OpenAI
-- Es un buen modelo para tareas de razonamiento
+- Es un buen modelo para tareas de razonamiento, **especialmente en su versión de pago (GPT-4).**
 - Hay que registrarse en [https://chatgpt.com](https://chatgpt.com)
 
 ---
@@ -79,14 +87,8 @@ El modelo permite el uso de texto, imágenes, audio, etc. No funciona igual de b
 
 ### Google Gemini
 - Genera texto e imágenes
-- Se puede usar sin registrarse desde una cuenta de *gcloud*. Para acceder: [https://gemini.google.com/](https://gemini.google.com/)
-- Posiblemente el menos potente de los cuatro
-
----
-
-### Microsoft Bing
-- Vamos a utilizar el generador de imagenes
-- Necesitamos una cuenta mscloud o registrarnos (igual que Gemini). Para acceder: [https://www.bing.com/images/create](https://www.bing.com/images/create)
+- Se puede usar sin registrarse desde una cuenta de *gmail*. Para acceder: [https://gemini.google.com/](https://gemini.google.com/)
+- Ha mejorado mucho últimamente, recomendado para tareas que necesiten un contexto muy grande (grandes documentos)
 
 ---
 ## Ejemplo práctico
@@ -104,8 +106,8 @@ Creación de una página web con la noticia de un evento que va a tener lugar en
 ----
 
 1. Registrarnos o loguearnos en mistral: [https://chat.mistral.ai/](https://chat.mistral.ai/)
-2. Descargar el documento de: [https://dagrygf.ua.es/es/documentos/2024-seminario-ot-la-region-y-la-ciudad/la-region-y-la-ciudad-seminario-ot-2024.jpg](https://dagrygf.ua.es/es/documentos/2024-seminario-ot-la-region-y-la-ciudad/la-region-y-la-ciudad-seminario-ot-2024.jpg)
-3. Subir la imagen a la herramienta, utilizando el icono del clip que hay en la parte derecha
+2. Descargar el documento de: [https://eventos.upo.es/_files/_event/_133339/_header_img/_195709.png](https://eventos.upo.es/_files/_event/_133339/_header_img/_195709.png)
+3. Subir la imagen a la herramienta, utilizando el icono del clip que hay en la parte izquierda
 
 ---
 
@@ -115,23 +117,20 @@ Prompt: *Transcribe el contenido del documento*
 
 ---
 
-El resultado corresponde a la transcripción de los textos que contiene el cartel en el mismo orden en que aparecen:
-- Lugar y aula
-- Día y hora de la primera charla
-- Nombre de la charla
-- Persona que da la charla
-- Cargo
-- Titulo del seminario
-- Descripción de la imagen
-- Universidad y Departamento
-- Organizadores
+El resultado corresponde a la transcripción de los textos que contiene el cartel en el mismo orden en que aparece en la imagen:
+- Nombre de la jornada
+- Fecha de la charla
+- Descripción de los ponentes
+- Lugar y hora del evento
+- Coordinación
+- Financiación
 
 ---
 
 
 Queremos **transformar la información** para que tenga un orden adecuado al uso que queremos darle. Utilizamos las indicaciones para ello
 
-Prompt: *Necesitamos la siguiente información del documento para realizar un resumen: tipo de evento, nombre, lugar donde se realizarán las charlas del evento, organización, coordinación y programa, incluyendo si es posible el nombre de la ponencia, la fecha y hora, y el nombre del ponente*
+Prompt: *Necesitamos la siguiente información del documento para realizar un resumen: (1) tipo de evento (jornada, congreso, etc), (2) nombre del evento, (3) fecha y lugar donde se realizará el evento, (4) coordinación y (5) financiación, (6) ponentes incluyendo el nombre y el cargo*
 
 Como vemos ha transformado la información, dandole sentido en base a la indicación que le hemos dado
 
@@ -143,19 +142,23 @@ Prompt: *Por favor, realiza un resumen de un párrafo del evento, indicando los 
 
 ---
 
-Vamos a **convertir toda la información anterior en html** para poder insertarla en nuestra página de vuala
+Vamos a **convertir toda la información anterior en html** para poder insertarla en nuestra página del sitio web de la Universidad.
 
-Prompt: *Ahora, utilizando la información anterior que me has generado crea un documento html  (incluye la información estructurada del evento y el resumen del mismo que has elaborado anteriormente). Deseamos crear una pagina web con el evento, pero no que nos escriba una pagina completa en html, sino solo el interior de ella, con párrafos, y con estilos básicos, como negrita, cursiva etc.*
+Prompt: *Ahora, utilizando la información anterior que me has generado crea un documento html en formato evento. Necesito que sea una página elegante, con distinción clara de cada parte del evento (incluye la información estructurada del evento y el resumen del mismo que has elaborado anteriormente, añade datos estructurados para mejorar las búsquedas de google en formato JSON-LD). El evento se celebra en Sevilla, en la universidad Pablo de Olavide*
 
-Si nos muestra la pagina completa se lo volvemos a pedir de nuevo, pero con mas claridad
+La información estructurada le permite a Google conocer mas datos del evento al añadir otros datos. Podeis consultar mas información en [https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=es-419](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=es-419)
 
-Prompt: *Por favor, necesito solo el contenido, no la pagina web completa, no pongas clases*
+Vamos a comprobar como ha quedado la página visionandola con un visor externo. Para ello vamos a utilizar [el visor HTML de Code Beautify](https://codebeautify.org/htmlviewer)
+
+Como queremos mejorar la página vamos a pedirle que en la cabecera añada la imagen utilizada para crear la pagina web. La página del evento se encuentra en [https://eventos.upo.es/133339/detail/iv-jornada-de-traduccion-e-interpretacion-en-las-fuerzas-y-cuerpos-de-seguridad-del-estado.html](https://eventos.upo.es/133339/detail/iv-jornada-de-traduccion-e-interpretacion-en-las-fuerzas-y-cuerpos-de-seguridad-del-estado.html). Para ello copiamos la direccion de la imagen
+
+Prompt: *Por favor, añade al principio de la pagina web la imagen del evento, que se encuentra en https://eventos.upo.es/_files/_event/_133339/_header_img/_195709.png. Además me gustaría incluir a la derecha del lugar y la hora un icono para que puedan añadir el evento en google calendar*
 
 ---
 
 Vamos a utilizar la **herramienta de búsqueda** para buscar información de los ponentes
 
-Prompt: *Por favor, busca la información de los ponentes para añadir a la pagina web*
+Prompt: *Por favor, busca la información de los ponentes para añadir a la pagina web. Utiliza solo datos profesionales, importantes para añadir contexto al evento, descarta datos personales. Si encuentras alguna imagen de los ponentes añadela*
 
 ----
 
@@ -165,20 +168,16 @@ Prompt: *Convierte esta información en html e incorporala en el contenido anter
 
 Ajustamos la salida a nuestras necesidades:
 
-Prompt: *Quita los textos de afiliación y de informacion adicional y quita el texto ponencia. Pon solo el nombre de la ponencia, y debajo pon el ponente, con su cargo y la informacion adicional*
+Prompt: *Quita la imagen del ponente y separa el contenido del resumen de de los ponentes claramente, para ello omite el resaltado azul y el fondo gris en los ponentes, manteniendo el código html normal.*
 
 
-Verificamos la respuesta y la subimos a Vuala
+Verificamos la respuesta y la subimos a nuestro gestor de contenidos
 
 -----
 
-Ponemos intentar **obtener alguna imagen de los ponentes**, vamos a buscarla usando Perplexity.ai en [https://www.perplexity.ai](https://www.perplexity.ai) o en [chatgtp.com](chatgtp.com)
+El resultado de la pagina web se puede ver aquí: 
 
-Prompt: *Busca imágenes de Nacho Díez Torrijos. Dpto. de Urbanismo, Universitat Politècnica de València*
-
-Esta operativa es idéntica tanto para chatgpt, como para mistral y gemini, que poseen acceso a internet
-
-----
+-----
 
 ## Ejemplo práctico 
 
