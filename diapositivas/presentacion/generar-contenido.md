@@ -175,7 +175,7 @@ Verificamos la respuesta y la subimos a nuestro gestor de contenidos
 
 -----
 
-El resultado de la pagina web se puede ver aquí: 
+El resultado de la pagina web se puede ver aquí: [https://fgtortosa.github.io/uso-ia-generativa-ptgas-upo/](https://fgtortosa.github.io/uso-ia-generativa-ptgas-upo/)
 
 -----
 
