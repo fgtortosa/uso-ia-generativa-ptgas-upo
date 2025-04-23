@@ -45,6 +45,7 @@ tags:
     - Notas creadas dentro del propio NotebookML
 
 ---
+
 ## Google NotebookML: Beneficios Clave
 
 - **Fiabilidad:** Respuestas basadas en información verificada y con referencias.
@@ -55,6 +56,54 @@ tags:
 - **Incorporación:** Ideal para que el nuevo personal se ponga al día rápidamente.
 
 ---
+
+## Interfaz de Google NotebookML: Visión General
+
+- **Panel Izquierdo (Fuentes):** Gestiona los documentos base. Muestra resúmenes y temas clave al seleccionar una fuente.
+- **Panel Central (Chat):** Área principal para hacer preguntas y recibir respuestas. Incluye sugerencias de preguntas.
+- **Panel Derecho (Studio):** Almacena notas guardadas y contiene herramientas para generar contenido adicional.
+
+---
+
+## Interfaz: Panel de Fuentes (Detalle)
+
+![Panel de fuentes](panel-fuentes.png)
+
+---
+
+## Interfaz: Panel de Fuentes (Detalle)
+
+- **Iconos:** Indican el tipo de fuente (PDF, Web, Doc, Nota).
+- **Gestión:** Permite añadir, eliminar o seleccionar/deseleccionar fuentes para acotar la base de conocimiento de una consulta específica.
+
+---
+
+## Interfaz: Panel de Fuentes (Detalle)
+
+- **Resumen rápido:** Al hacer clic en una fuente, se muestra un resumen generado por IA y los temas clave detectados.
+
+![Guía de la fuente](guia-de-la-fuente.png)
+
+---
+
+## Interfaz: Panel Studio (Herramientas)
+
+![Panel Studio](panel-studio.png)
+
+---
+
+## Interfaz: Panel Studio (Herramientas)
+
+- **Notas:** Acceso a todas las notas guardadas desde el chat o creadas manualmente.
+- **Herramientas Creativas:**
+    - **Resumen:** Síntesis del contenido.
+    - **Preguntas Frecuentes (FAQ):** Genera Q&A probables.
+    - **Guía de estudio:** Material estructurado para aprendizaje.
+    - **Cronología:** Ordena eventos temporalmente.
+    - **Mapa conceptual:** (Experimental) Visualiza relaciones entre ideas.
+    - **Resumen de audio:** (Experimental) Conversación simulada (inglés).
+---
+
 ## Flujo de trabajo: 1. Creación del Notebook
 
 ![Notebook con título](nuevo-documento.jpg)
@@ -83,7 +132,11 @@ Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PT
 - **Selección:** Elegir las fuentes más relevantes y actualizadas para el tema del notebook.
 - **Límite:** Hasta 50 fuentes por notebook (cada fuente hasta 500.000 palabras aprox.).
 
+---
 
+## Flujo de trabajo: 2. Incorporación de Fuentes
+
+Debemos arrastrar y soltar en la ventana el conjunto de los ficheros descargados de [Google Drive]((https://drive.google.com/drive/folders/1MVZanSWFgSjkfmOoFlWloVSq8-QvES5S?usp=sharing)
 
 ---
 
@@ -101,8 +154,20 @@ Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PT
 - **Verificar fuentes:** Comprobar las citas numéricas [1], [2]... que aparecen en la respuesta para ver qué documento o sección la respalda. Haz clic en el número para ir a la fuente.
 - **Explorar:** Realizar diversas preguntas para entender cómo interpreta la IA la información y qué tipo de respuestas puede generar.
 
+---
+
+## Flujo de trabajo: 3. Realización de Consultas
+
+- ¿Cuál es la duración de la jornada semanal ordinaria para el PTGAS funcionario en la UPO?
+
+Vamos a guardar la consulta como nota
+
+- Si me incorporo como funcionario a la UPO desde otra administración, ¿cómo se computan mis trienios y servicios previos según el EBEP y la normativa UPO?
+
+Podemos ver como cambia la respuesta en funcion de las fuentes seleccionadas
 
 ---
+
 ## Flujo de trabajo: 4. Guardar notas clave
 
 ![Guardar como nota](guardar-como-nota.png)
@@ -143,6 +208,13 @@ Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PT
 - **Utilidad:** Acelera la creación de documentación, material formativo o respuestas estandarizadas.
 
 ---
+
+## Flujo de trabajo: 6. Generación de Contenido con Studio
+
+Seleccionando un grupo de fuentes relacionadas podemos crear una lista de preguntas frecuentes (FAQ)
+
+---
+
 ## Flujo de trabajo: 7. Resolución Continua de Dudas
 
 - **Chat como herramienta principal:** Utilizar la ventana de chat para consultas recurrentes del personal o alumnado.
@@ -151,6 +223,7 @@ Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PT
 - **Citación de fuentes:** Cada respuesta incluye referencias a las fuentes específicas utilizadas, garantizando la trazabilidad y fiabilidad.
 
 ---
+
 ## Flujo de trabajo: 8. Mantenimiento del Notebook
 
 - **Actualización de fuentes:** Reemplazar o añadir nuevos documentos cuando la normativa o los procedimientos cambien. Sincronizar Google Docs/Slides si se han modificado.
@@ -159,52 +232,16 @@ Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PT
 - **Periodicidad:** Establecer una rutina (ej. trimestral, anual o tras cambios normativos importantes) para revisar y mantener actualizado el contenido del notebook.
 
 ---
+
+## Flujo de trabajo: 8. Mantenimiento del Notebook
+
+Vamos a borrar una fuente del notebook utilizando el menú existente a la izquierda de cada documento
+
+---
 ## Interfaz de Google NotebookML: Visión General
 
 ![Pantalla Principal](pantalla-principal-notebook.jpg)
 
----
-## Interfaz de Google NotebookML: Visión General
-
-- **Panel Izquierdo (Fuentes):** Gestiona los documentos base. Muestra resúmenes y temas clave al seleccionar una fuente.
-- **Panel Central (Chat):** Área principal para hacer preguntas y recibir respuestas. Incluye sugerencias de preguntas.
-- **Panel Derecho (Studio):** Almacena notas guardadas y contiene herramientas para generar contenido adicional.
-
----
-## Interfaz: Panel de Fuentes (Detalle)
-
-![Panel de fuentes](panel-fuentes.png)
-
----
-## Interfaz: Panel de Fuentes (Detalle)
-
-- **Iconos:** Indican el tipo de fuente (PDF, Web, Doc, Nota).
-- **Gestión:** Permite añadir, eliminar o seleccionar/deseleccionar fuentes para acotar la base de conocimiento de una consulta específica.
-
----
-## Interfaz: Panel de Fuentes (Detalle)
-
-- **Resumen rápido:** Al hacer clic en una fuente, se muestra un resumen generado por IA y los temas clave detectados.
-
-![Guía de la fuente](guia-de-la-fuente.png)
-
----
-## Interfaz: Panel Studio (Herramientas)
-
-![Panel Studio](panel-studio.png)
-
----
-
-## Interfaz: Panel Studio (Herramientas)
-
-- **Notas:** Acceso a todas las notas guardadas desde el chat o creadas manualmente.
-- **Herramientas Creativas:**
-    - **Resumen:** Síntesis del contenido.
-    - **Preguntas Frecuentes (FAQ):** Genera Q&A probables.
-    - **Guía de estudio:** Material estructurado para aprendizaje.
-    - **Cronología:** Ordena eventos temporalmente.
-    - **Mapa conceptual:** (Experimental) Visualiza relaciones entre ideas.
-    - **Resumen de audio:** (Experimental) Conversación simulada (inglés).
 
 ---
 ## Aplicación Práctica en el PTGAS UPO
@@ -216,6 +253,7 @@ Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PT
 - **Formación y Onboarding:** Recurso de consulta centralizado para nuevos miembros y para refrescar conocimientos.
 
 ---
+
 ## Caso Práctico: Notebook "Normativa PTGAS UPO"
 
 ### Fuentes Utilizadas
@@ -232,6 +270,7 @@ Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PT
 - Descarga de los documentos pdf de google drive: https://drive.google.com/drive/folders/1MVZanSWFgSjkfmOoFlWloVSq8-QvES5S?usp=sharing y añadelos como fuentes
 
 ---
+
 ## Ejemplos de Consultas al Notebook PTGAS
 
 - *Si me incorporo como funcionario a la UPO desde otra administración, ¿cómo se computan mis trienios y servicios previos según el EBEP y la normativa UPO?*
@@ -239,6 +278,7 @@ Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PT
 - *Explícame las principales diferencias en las medidas de conciliación entre el EBEP y el acuerdo específico de la UPO.*
 
 ---
+
 ## Ejemplos de Consultas al Notebook PTGAS
 
 - *¿Cuál es la duración de la jornada semanal ordinaria para el PTGAS funcionario en la UPO?*
@@ -246,6 +286,7 @@ Iniciar un nuevo notebook para un tema o proyecto específico (ej. "Normativa PT
 - *Resume los puntos clave del Reglamento de Evaluación del Desempeño del PTGAS.*
 
 ---
+
 ## Conclusiones
 
 - Google NotebookML es una herramienta **potente y gratuita** para crear asistentes de chat basados en **información propia y verificada**.

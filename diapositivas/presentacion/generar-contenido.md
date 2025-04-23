@@ -25,7 +25,7 @@ tags:
 
 **Prompt**
 
-1. Hay que detallar el tipo de salida que se desee y toda aquella información que sea relevante (contexto). 
+1. Hay que detallar el tipo de salida que se desea y toda aquella información que sea relevante (contexto). 
 2. Si la salida que se desea es compleja, comenzar con una aproximación al problema para a continuación ir añadiendo la complejidad. 
 3. En algunos casos puede ser interesante utilizar modelos con capacidad de razonamiento, por su capacidad de estructurar la tarea. **Para estos modelos, es útil dar instrucciones paso a paso o pedirles que "piensen en voz alta" (Chain-of-Thought).**
 
@@ -195,17 +195,9 @@ Vamos a utilizar la **herramienta de búsqueda** para buscar información adicio
 
 ### Incorporación de la información a la página
 
-Revisamos la información y le pedimos que la transforme a HTML para incorporarla en la página web.
+Revisamos la información y le pedimos que la transforme a HTML para incorporarla en la página web. **En este caso no la vamos a incorporar al no ser relevante**
 
 **Prompt**: *Convierte esta información en HTML e incorpórala en el contenido anterior de la página HTML en un apartado final llamado "Ponentes"*
-
----
-
-### Refinamiento final
-
-Ajustamos la salida a nuestras necesidades:
-
-**Prompt**: *Quita la imagen del ponente y separa el contenido del resumen de los ponentes claramente, para ello omite el resaltado azul y el fondo gris en los ponentes, manteniendo el código HTML normal*
 
 ---
 

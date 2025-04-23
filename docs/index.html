@@ -11,51 +11,144 @@
             padding: 0;
             background-color: #f4f4f4;
         }
-        .event-container {
-            max-width: 800px;
-            margin: 20px auto;
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #003366;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .event-info {
+            background: #fff;
             padding: 20px;
-            background-color: #fff;
+            margin: 20px 0;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
-            text-align: center;
-            color: #333;
+        .event-info h2 {
+            color: #003366;
+        }
+        .event-info p {
+            line-height: 1.6;
+        }
+        .event-info .summary {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
         }
         .event-image {
-            display: block;
-            margin: 0 auto 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .event-image img {
             max-width: 100%;
             height: auto;
         }
         .event-details {
-            margin-bottom: 20px;
-        }
-        .event-details p {
-            margin: 5px 0;
             display: flex;
             align-items: center;
         }
-        .event-details p strong {
-            margin-right: 10px;
+        .event-details .icon {
+            margin-left: 10px;
         }
-        .event-summary {
-            background-color: #e9e9e9;
-            padding: 10px;
-            border-left: 5px solid #007BFF;
-        }
-        .google-calendar-icon {
-            margin-left: auto;
-        }
-        .google-calendar-icon img {
+        .event-details .icon img {
             width: 24px;
             height: 24px;
+            cursor: pointer;
         }
-        .ponentes {
-            margin-top: 40px;
-            padding: 20px;
+        footer {
+            background: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>IV Jornada de Traducción e Interpretación</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#event-info">Información del Evento</a></li>
+                    <li><a href="#summary">Resumen</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="event-image">
+            <img src="https://eventos.upo.es/_files/_event/_133339/_header_img/_195709.png" alt="IV Jornada de Traducción e Interpretación">
+        </div>
+
+        <div id="event-info" class="event-info">
+            <h2>Información del Evento</h2>
+            <p><strong>Tipo de evento:</strong> Jornada</p>
+            <p><strong>Nombre del evento:</strong> IV Jornada de Traducción e Interpretación en las Fuerzas y Cuerpos de Seguridad del Estado</p>
+            <div class="event-details">
+                <p><strong>Fecha y lugar:</strong> 28 de abril de 2025, Sala de Grados Edificio 7, Universidad Pablo de Olavide, Sevilla</p>
+                <div class="icon">
+                    <img src="https://img.icons8.com/color/24/000000/google-calendar.png" alt="Añadir a Google Calendar" onclick="addToGoogleCalendar()">
+                </div>
+            </div>
+            <p><strong>Coordinación:</strong></p>
+            <ul>
+                <li>Prof. Francisco Javier Vigier Moreno</li>
+                <li>Profa. Hanan Saleh Hussein</li>
+            </ul>
+            <p><strong>Financiación:</strong> Departamento de Filología y Traducción</p>
+            <p><strong>Ponentes:</strong></p>
+            <ul>
+                <li>D. Sergio Zarza Hernández - Inspector de la Policía Nacional y Brigada de Extranjería en Almería</li>
+                <li>D. Fernando Bañeza Salinero - Funcionario del Cuerpo de Traductores e Intérpretes del Estado destinado en la Oficina de Traducción e Interpretación de Lenguas de la Policía Nacional</li>
+            </ul>
+        </div>
+
+        <div id="summary" class="event-info summary">
+            <h2>Resumen del Evento</h2>
+            <p>La IV Jornada de Traducción e Interpretación en las Fuerzas y Cuerpos de Seguridad del Estado, que se celebrará el 28 de abril de 2025 en la Sala de Grados del Edificio 7 de la Universidad Pablo de Olavide en Sevilla, abordará temas clave relacionados con la traducción e interpretación en el ámbito de la seguridad estatal. Este evento, coordinado por el Prof. Francisco Javier Vigier Moreno y la Profa. Hanan Saleh Hussein, y financiado por el Departamento de Filología y Traducción, contará con la participación de destacados ponentes como D. Sergio Zarza Hernández, Inspector de la Policía Nacional y Brigada de Extranjería en Almería, y D. Fernando Bañeza Salinero, funcionario del Cuerpo de Traductores e Intérpretes del Estado. La jornada ofrecerá una visión profunda sobre el papel crucial de la traducción e interpretación en la labor de las fuerzas y cuerpos de seguridad, destacando su importancia en la comunicación y la cooperación internacional.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Universidad Pablo de Olavide. Todos los derechos reservados.</p>
+    </footer>
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -64,27 +157,17 @@
         "startDate": "2025-04-28T13:00:00",
         "endDate": "2025-04-28T14:30:00",
         "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "location": {
             "@type": "Place",
-            "name": "Sala de Grados Edificio 7, Universidad Pablo de Olavide",
+            "name": "Universidad Pablo de Olavide",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Sala de Grados Edificio 7",
                 "addressLocality": "Sevilla",
                 "addressRegion": "Andalucía",
-                "postalCode": "41013",
                 "addressCountry": "España"
             }
-        },
-        "image": "https://eventos.upo.es/_files/_event/_133339/_header_img/_195709.png",
-        "description": "La IV Jornada de Traducción e Interpretación en las Fuerzas y Cuerpos de Seguridad del Estado es una jornada especializada que se llevará a cabo el 28 de abril 2025 en la Sala de Grados del Edificio 7 de la Universidad Pablo de Olavide en Sevilla. Organizada y financiada por el Departamento de Filología y Traducción, contará con la coordinación de los profesores Francisco Javier Vigier Moreno y Hanan Saleh Hussein. Los ponentes principales serán D. Sergio Zarza Hernández, Inspector de la Policía Nacional y Brigada de Extranjería en Almería, y D. Fernando Bañeza Salinero, funcionario del Cuerpo de Traductores e Intérpretes del Estado. La jornada abordará temas relacionados con la traducción e interpretación en el contexto de las fuerzas y cuerpos de seguridad del estado, destacando la importancia de estas disciplinas en el ámbito policial y de seguridad.",
-        "offers": {
-            "@type": "Offer",
-            "url": "URL_DE_LA_PAGINA_DEL_EVENTO",
-            "price": "0",
-            "priceCurrency": "EUR",
-            "availability": "https://schema.org/InStock",
-            "validFrom": "2025-04-28"
         },
         "organizer": {
             "@type": "Organization",
@@ -94,45 +177,23 @@
             {
                 "@type": "Person",
                 "name": "Sergio Zarza Hernández",
-                "sameAs": "URL_DEL_PONENTE_1"
+                "jobTitle": "Inspector de la Policía Nacional y Brigada de Extranjería en Almería"
             },
             {
                 "@type": "Person",
                 "name": "Fernando Bañeza Salinero",
-                "sameAs": "URL_DEL_PONENTE_2"
+                "jobTitle": "Funcionario del Cuerpo de Traductores e Intérpretes del Estado"
             }
-        ]
+        ],
+        "description": "La IV Jornada de Traducción e Interpretación en las Fuerzas y Cuerpos de Seguridad del Estado abordará temas clave relacionados con la traducción e interpretación en el ámbito de la seguridad estatal, destacando su importancia en la comunicación y la cooperación internacional."
     }
     </script>
-</head>
-<body>
-    <div class="event-container">
-        <img src="https://eventos.upo.es/_files/_event/_133339/_header_img/_195709.png" alt="IV Jornada de Traducción e Interpretación en las Fuerzas y Cuerpos de Seguridad del Estado" class="event-image">
-        <h1>IV Jornada de Traducción e Interpretación en las Fuerzas y Cuerpos de Seguridad del Estado</h1>
-        <div class="event-details">
-            <p><strong>Fecha:</strong> 28 de abril 2025 <a href="https://www.google.com/calendar/event?action=TEMPLATE&text=IV%20Jornada%20de%20Traducci%C3%B3n%20e%20Interpretaci%C3%B3n%20en%20las%20Fuerzas%20y%20Cuerpos%20de%20Seguridad%20del%20Estado&dates=20250428T130000Z/20250428T143000Z&details=Evento%20en%20la%20Sala%20de%20Grados%20Edificio%207%2C%20Universidad%20Pablo%20de%20Olavide%2C%20Sevilla&location=Sala%20de%20Grados%20Edificio%207%2C%20Universidad%20Pablo%20de%20Olavide%2C%20Sevilla&trp=false" target="_blank" class="google-calendar-icon"><img src="https://img.icons8.com/color/24/000000/google-calendar.png" alt="Añadir a Google Calendar"></a></p>
-            <p><strong>Hora:</strong> 13:00 - 14:30</p>
-            <p><strong>Lugar:</strong> Sala de Grados Edificio 7, Universidad Pablo de Olavide, Sevilla</p>
-            <p><strong>Coordinación:</strong> Prof. Francisco Javier Vigier Moreno y Profa. Hanan Saleh Hussein</p>
-            <p><strong>Financiación:</strong> Departamento de Filología y Traducción</p>
-        </div>
-        <div class="event-summary">
-            <h2>Resumen del Evento</h2>
-            <p>La IV Jornada de Traducción e Interpretación en las Fuerzas y Cuerpos de Seguridad del Estado es una jornada especializada que se llevará a cabo el 28 de abril 2025 en la Sala de Grados del Edificio 7 de la Universidad Pablo de Olavide en Sevilla. Organizada y financiada por el Departamento de Filología y Traducción, contará con la coordinación de los profesores Francisco Javier Vigier Moreno y Hanan Saleh Hussein. Los ponentes principales serán D. Sergio Zarza Hernández, Inspector de la Policía Nacional y Brigada de Extranjería en Almería, y D. Fernando Bañeza Salinero, funcionario del Cuerpo de Traductores e Intérpretes del Estado. La jornada abordará temas relacionados con la traducción e interpretación en el contexto de las fuerzas y cuerpos de seguridad del estado, destacando la importancia de estas disciplinas en el ámbito policial y de seguridad.</p>
-        </div>
-        <div class="ponentes">
-            <h2>Ponentes</h2>
-            <div>
-                <h3>Sergio Zarza Hernández</h3>
-                <p><strong>Cargo:</strong> Inspector de la Policía Nacional y Brigada de Extranjería en Almería.</p>
-                <p><strong>Biografía Profesional:</strong> Sergio Zarza Hernández es inspector de la Policía Nacional y actualmente se desempeña como Jefe de Sección en la Brigada Provincial de Extranjería y Fronteras en Almería. Ha estado destinado anteriormente en la Comisaría Provincial de Almería y tiene una amplia experiencia en la gestión de asuntos relacionados con la inmigración y las fronteras. Su carrera en la Policía Nacional incluye diversas responsabilidades en el ámbito de la seguridad y la gestión policial en la región de Almería.</p>
-            </div>
-            <div>
-                <h3>Fernando Bañeza Salinero</h3>
-                <p><strong>Cargo:</strong> Funcionario del Cuerpo de Traductores e Intérpretes del Estado destinado en la Oficina de Traducción e Interpretación de Lenguas de la Policía Nacional.</p>
-                <p><strong>Biografía Profesional:</strong> Fernando Bañeza Salinero es un intérprete y traductor autónomo, antiguo alumno de la Universidad de Salamanca. Ha participado en diversas entrevistas y programas relacionados con la traducción e interpretación, destacando su experiencia y formación en el campo. Su trabajo en la Oficina de Traducción e Interpretación de Lenguas de la Policía Nacional subraya su compromiso con la comunicación multilingüe en el ámbito de la seguridad y la justicia.</p>
-            </div>
-        </div>
-    </div>
+
+    <script>
+        function addToGoogleCalendar() {
+            const eventUrl = `https://www.google.com/calendar/event?action=TEMPLATE&text=IV%20Jornada%20de%20Traducción%20e%20Interpretación%20en%20las%20Fuerzas%20y%20Cuerpos%20de%20Seguridad%20del%20Estado&dates=20250428T130000Z/20250428T143000Z&details=La%20IV%20Jornada%20de%20Traducción%20e%20Interpretación%20en%20las%20Fuerzas%20y%20Cuerpos%20de%20Seguridad%20del%20Estado%20abordará%20temas%20clave%20relacionados%20con%20la%20traducción%20e%20interpretación%20en%20el%20ámbito%20de%20la%20seguridad%20estatal.&location=Sala%20de%20Grados%20Edificio%207,%20Universidad%20Pablo%20de%20Olavide,%20Sevilla`;
+            window.open(eventUrl, '_blank');
+        }
+    </script>
 </body>
 </html>

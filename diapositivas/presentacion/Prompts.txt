@@ -1,0 +1,19 @@
+Generar contenido
+
+Transcribe el contenido del documento
+
+Necesitamos la siguiente información del documento para realizar un resumen: (1) tipo de evento (jornada, congreso, etc), (2) nombre del evento, (3) fecha y lugar donde se realizará el evento, (4) coordinación y (5) financiación, (6) ponentes incluyendo el nombre y el cargo
+
+Por favor, realiza un resumen de un párrafo del evento, indicando los temas de los que trata, a modo de resumen de la página. El resumen lo incorporaremos al final del documento anterior
+
+Ahora, utilizando la información anterior que me has generado crea un documento HTML en formato evento. Necesito que sea una página elegante, con distinción clara de cada parte del evento (incluye la información estructurada del evento y el resumen del mismo que has elaborado anteriormente, añade datos estructurados para mejorar las búsquedas de Google en formato JSON-LD). El evento se celebra en Sevilla, en la Universidad Pablo de Olavide
+
+Por favor, añade al principio de la página web la imagen del evento, que se encuentra en https://eventos.upo.es/_files/_event/_133339/_header_img/_195709.png. Además me gustaría incluir a la derecha del lugar y la hora un icono para que puedan añadir el evento en Google Calendar
+
+Por favor, busca la información de los ponentes para añadir a la página web. Utiliza solo datos profesionales, importantes para añadir contexto al evento, descarta datos personales. Si encuentras alguna imagen de los ponentes añádela
+
+Convierte esta información en HTML e incorpórala en el contenido anterior de la página HTML en un apartado final llamado "Ponentes"
+
+Quita la imagen del ponente y separa el contenido del resumen de los ponentes claramente, para ello omite el resaltado azul y el fondo gris en los ponentes, manteniendo el código HTML normal
+
+
