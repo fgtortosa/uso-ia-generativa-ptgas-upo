@@ -19,7 +19,7 @@
 ## Materiales usados en la charla
 - [Cartel del evento de Traducción](https://eventos.upo.es/_files/_event/_133339/_header_img/_195709.png)
 - [Cartel del seminario de Geopolítica de la UA](https://web.ua.es/es/estudios-geopolitica/documentos/programa-iii-geopolitica-2024.pdf)
-- [Materiales para el uso de notebook](./)
+- [Materiales para el uso de notebook](./diapositivas/presentacion/fuentes-notebook.md)
 
 
 ## Presentación
