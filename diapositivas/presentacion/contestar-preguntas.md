@@ -18,7 +18,7 @@ tags:
 ## Solución propuesta
 
 - **Chats inteligentes que responden usando *solo* tu documentación verificada.**
-- Herramientas disponibles: ChatGPT (versión de pago) y Google NotebookML
+- Herramientas disponibles: ChatGPT Personalizado (versión de pago) y Google NotebookML
 
 ---
 ## Google NotebookML: ¿Qué es?
