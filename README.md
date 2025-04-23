@@ -22,9 +22,18 @@
 - [Materiales para el uso de notebook](./diapositivas/presentacion/fuentes-notebook.md)
 
 
-## Presentación
+## Contenido de la charla
+- [Introducción](./diapositivas/presentacion/introduccion.md)
+- [Generar contenido](./diapositivas/presentacion/generar-contenido.md)
+- [Contestar preguntas](./diapositivas/presentacion/contestar-preguntas.md)
+
+## Contenido de la charla [PDF]
 - [Introducción](./diapositivas/presentacion/introduccion.pdf)
 - [Generar contenido](./diapositivas/presentacion/generar-contenido.pdf)
 - [Contestar preguntas](./diapositivas/presentacion/contestar-preguntas.pdf)
 
-
+## Presentaciones HTML (Reveal.js)
+- [Introducción](./docs/presentacion-introduccion.html)
+- [Generar contenido](./docs/presentacion-generar-contenido.html)
+- [Contestar preguntas](./docs/presentacion-contestar-preguntas.html)
+- [Página de ejemplo (resultado final)](./docs/index.html)

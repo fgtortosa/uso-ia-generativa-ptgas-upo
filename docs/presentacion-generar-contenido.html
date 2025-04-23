@@ -12,6 +12,16 @@
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/plugin/highlight/monokai.min.css">
+    <style>
+        /* Optional: Add styles for images if needed */
+        .reveal section img {
+            max-height: 400px; /* Example max height */
+            margin: 15px 0px;
+            background: rgba(255, 255, 255, 0.12);
+            border: 4px solid #eee;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        }
+    </style>
 </head>
 <body>
     <div class="reveal">
@@ -19,7 +29,7 @@
             <section data-markdown>
                 <script type="text/template">
                     ## Consideraciones iniciales
-                    - La IA generativa puede ser una ayuda para las tareas del día a día del colectivo PTGAS de la Universidad Pablo de Olavide
+                    - La IA generativa puede ser una ayuda para las tareas del día a día del colectivo PTGAS de la Universidad de Olavide
                     - Es una herramienta de apoyo, **necesita ser supervisada**
                     - Como se usa en la nube, hay que evitar el uso de datos personales o de información sensible
                     - Es buena en tareas lingüísticas, no en razonamiento ni matemáticas (esto está cambiando rápidamente)
@@ -250,6 +260,22 @@
                     El resultado de la página web se puede ver aquí: [https://fgtortosa.github.io/uso-ia-generativa-ptgas-upo/](https://fgtortosa.github.io/uso-ia-generativa-ptgas-upo/)
                 </script>
             </section>
+             <section data-markdown>
+                <script type="text/template">
+                    ## Conclusiones
+
+                    - La IA generativa es una **herramienta versátil** para tareas como resumir, transformar y crear contenido (ej. páginas web desde carteles).
+                    - Es crucial **guiar a la IA** con prompts claros y detallados, refinando los resultados paso a paso.
+                    - Los modelos actuales (Claude, ChatGPT, Mistral, Gemini) ofrecen distintas fortalezas (razonamiento, multimodalidad, contexto amplio).
+                    - La **supervisión humana** es esencial para verificar la precisión y adecuar el resultado final.
+                    - **Precaución con datos sensibles:** Evitar información personal o confidencial al usar herramientas en la nube.
+                </script>
+            </section>
+             <section data-markdown>
+                <script type="text/template">
+                    ## Preguntas
+                </script>
+            </section>
         </div>
     </div>
 
@@ -263,9 +289,9 @@
             hash: true,
             plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
             // Ajusta la altura para evitar barras de scroll si el contenido es largo
-            height: '100%', 
+            height: '100%',
             // Ajusta el ancho si es necesario
-            width: '100%', 
+            width: '100%',
             // Escala el contenido para ajustarse
             margin: 0.04,
             minScale: 0.2,
