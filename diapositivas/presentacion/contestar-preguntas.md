@@ -238,12 +238,7 @@ Seleccionando un grupo de fuentes relacionadas podemos crear una lista de pregun
 Vamos a borrar una fuente del notebook utilizando el menú existente a la izquierda de cada documento
 
 ---
-## Interfaz de Google NotebookML: Visión General
 
-![Pantalla Principal](pantalla-principal-notebook.jpg)
-
-
----
 ## Aplicación Práctica en el PTGAS UPO
 
 ### Áreas de Implementación Potenciales
