@@ -33,7 +33,7 @@
 - [Contestar preguntas](./diapositivas/presentacion/contestar-preguntas.pdf)
 
 ## Presentaciones HTML (Reveal.js)
-- [Introducción](./docs/presentacion-introduccion.html)
-- [Generar contenido](./docs/presentacion-generar-contenido.html)
-- [Contestar preguntas](./docs/presentacion-contestar-preguntas.html)
-- [Página de ejemplo (resultado final)](./docs/index.html)
+- [Introducción](https://fgtortosa.github.io/uso-ia-generativa-ptgas-upo/presentacion-introduccion.html)
+- [Generar contenido](https://fgtortosa.github.io/uso-ia-generativa-ptgas-upo/presentacion-generar-contenido.html)
+- [Contestar preguntas](https://fgtortosa.github.io/uso-ia-generativa-ptgas-upo/presentacion-contestar-preguntas.html)
+- [Página de ejemplo (resultado final)](https://fgtortosa.github.io/uso-ia-generativa-ptgas-upo/index.html)
